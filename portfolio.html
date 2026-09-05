@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--Why are you in the console?-->
+<html lang="">
+  <head>
+  <link rel='stylesheet' href='styles.css'>
+    <meta charset="utf-8">
+    <title>Our Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap" rel="stylesheet">
+  <script src='constants.js'></script>
+  </head>
+
+    <!--start of heading-->
+  <body>
+    <div class='content' style='display: flex; justify-content:center; margin-bottom:20px'>
+      <div id='logo'>
+        <a href='index.html'>
+        <img src='assets/logo.png' style='max-height:128px; display:flex'>
+        </a>
+      </div>
+      <div style='position:relative'>
+        <h1 style='text-align:center;'>Bamboozled FTC</h1>
+        <h2 style='text-align:center;font-family:Playwrite US Trad;'>"<span id='quote'>Why are you reading this?</span>"</h2>
+        <script>
+        document.getElementById("quote").textContent = qotd;
+        </script>
+      </div>
+      <!--end of heading-->
+
+    </div>
+    <div class='big' style='text-align:center;height:800px'>
+      <h2 style="font:">Here at Bamboozled, we have a few rules we follow.</h2>
+      <div style="display: flex;justify-content:center;">
+      <div style="width:400px;margin:20px;border:4px solid white">
+        <h3>- Refrain from overusing AI.</h3>
+        <p style="margin: 16px">We actually put in the work, instead of letting a language model do it all for us. Doing this lets us learn from our mistakes instead of yelling at the magic machine to fix them. And besides, it's bad for the environment anyways.</p>
+      </div>
+      <div style="width:400px;margin:20px;border:4px solid white">
+        <h3>-Stay lighthearted.</h3>
+        <p style="margin: 16px">Who said doommongering was ever good? It's always great to have a lot of positivity in your life, regardless of how it might look outside.</p>
+      </div>
+      </div>
+    </div>
+
+  </body>
+</html>

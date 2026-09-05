@@ -1,0 +1,232 @@
+body {
+    background-color: #578a21;
+}
+
+h1 {
+    font-family: Poppins;
+    color: #ffffff
+}
+h2 {
+    font-family: Poppins;
+    color: #ffffff
+}
+h3 {
+    font-family: Poppins;
+    color: #ffffff
+}
+div {
+    border-radius: 16px;
+}
+
+p{
+    font-family: Poppins;
+    font-size: 20px;
+    color: #ffffff
+}
+h2{
+    color: #ffffff
+}
+h3{
+    color: #ffffff
+}
+
+
+#upperpart {
+    background-color: #75994e;
+    border: 4px;
+    border-radius: 4px;
+}
+
+#main {
+    background-color: #75994e;
+    padding: 12px;
+    max-width: 800px
+}
+
+#main2 {
+    background-color: #75994e;
+    padding: 6px;
+}
+
+#links {
+    text-align: center;
+}
+
+#big2{
+    justify-content: center;
+    text-align: center;
+}
+.num1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center
+}
+
+.content {
+    background-image: linear-gradient(to right, #a5be4e, #a5be4e);
+    border: 5px solid white
+}
+
+.spacer128px{
+    height: 128px;
+}
+
+.big {
+    background-color: #a5be4e;
+    border: 5px solid white;
+    height: 670px;
+}
+
+.links{
+    background-color: #75994e;
+    padding: 10px;
+    height: 670px;
+    justify-content: center;
+}
+
+.button{
+    font-size: 32px;
+    font-family: Poppins;
+    border-radius: 16px;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.2s;
+
+}
+.button:visited {
+    color: inherit;
+}
+
+.button:hover {
+    background-color: gray
+}
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.playwrite-gb-j-guides-regular {
+    font-family: "Playwrite GB J Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.playwrite-gb-j-guides-regular-italic {
+    font-family: "Playwrite GB J Guides", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+.playwrite-us-trad-<uniquifier> {
+    font-family: "Playwrite US Trad", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
