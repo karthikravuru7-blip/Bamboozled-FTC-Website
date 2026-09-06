@@ -1,10 +1,12 @@
 body {
     background-color: #578a21;
+    text-align: center;
+    justify-content: center;
 }
 
 h1 {
     font-family: Poppins;
-    color: #ffffff
+    color: #ffffff;
 }
 h2 {
     font-family: Poppins;
