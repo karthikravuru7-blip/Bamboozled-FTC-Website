@@ -1,1 +1,1 @@
-const qotd = 'The earth is a fine place and worth fighting for. — Ernest Hemingway';
+const qotd = 'If we can find short-term incentives that are consistent with our long-term objectives, it is much easier to make the right decisions in the moment.';
