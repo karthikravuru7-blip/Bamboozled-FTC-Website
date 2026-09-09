@@ -58,6 +58,16 @@ h3{
     justify-content: center;
     text-align: center;
 }
+#topbar{
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
+
+}
+#middlespace{
+    width: 70%;
+}
+
 .num1 {
     display: flex;
     gap: 20px;
@@ -87,6 +97,7 @@ h3{
 }
 
 .button{
+    margin:5px;
     font-size: 32px;
     font-family: Poppins;
     border-radius: 16px;
@@ -104,6 +115,38 @@ h3{
 
 .button:hover {
     background-color: gray
+}
+
+.button2{
+    margin-right: 5px;
+    text-decoration: none;
+    filter: grayscale(100%);
+    transition: filter 0.2s;
+
+}
+.button2:visited {
+    color: inherit;
+}
+
+.button2:hover {
+    filter: grayscale(0%)
+}
+
+.button3{
+    margin-top: 10%;
+    font-family: Poppins;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s;
+    font-size: 14px;
+}
+
+.button3:visited {
+    color: inherit;
+}
+
+.button3:hover {
+    color: gray
 }
 
 .poppins-thin {
@@ -225,10 +268,16 @@ h3{
     font-weight: 400;
     font-style: italic;
 }
-.playwrite-us-trad-<uniquifier> {
+.playwrite-us-trad-something {
     font-family: "Playwrite US Trad", cursive;
     font-optical-sizing: auto;
-    font-weight: <weight>;
+    font-weight: 300;
+    font-style: normal;
+}
+.source-code-pro-something {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    font-weight: 300;
     font-style: normal;
 }
 
