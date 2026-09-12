@@ -12,13 +12,14 @@
   <script src='constants.js'></script>
   </head>
 
-    <!--start of heading-->
+   <!--start of heading-->
   <body>
-    <div class='content' style='display:flex;justify-content:center;margin-bottom:20px;padding:0.5%;color:white;'>
-      <div id='logo'>
-      </div>
-      <div style='position:relative'>
-      <div id="topbar">
+  <div class='content' style='position:sticky;top:0;z-index:999;margin-bottom:0.3%'>
+
+
+    <div style='position:relative;'>
+      <div id="topbar" style='position:flex;align-items:center;'>
+
           <div id="leftsection" style="margin:0.5%">
               <a class="button2" href='https://www.youtube.com/@Bamboozled-Ftc' target='_blank' style="max-width:33%">
                 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png' width=30>
@@ -30,25 +31,44 @@
                 <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/3840px-Gmail_icon_%282020%29.svg.png' width=32>
               </a>
           </div>
+
           <div id="rightsection">
             <a class='button3' href='index.html' style="margin-right:30px">Homepage</a>
             <a class='button3' href='portfolio.html' style="margin-right:30px">Portfolio</a>
             <a class='button3' href='log.html' style="margin-right:10px">Robot Log</a>
           </div>
+
         </div>
-        <!-- <h1 style='text-align:center;'>Bamboozled FTC</h1> -->
+    </div>
+
+
+  </div>
+
+  <div class='bg'>
+    <div class='content' style='display:flex;justify-content:center;margin-bottom:1%;padding:0.5%;color:white;'>
+      <div id='logo'>
+      </div>
+      <div style='position:relative'>
+
+        <h1 style='text-align:center;font-size:50px;'>Bamboozled FTC
+        <p>Rooted in Innovation</p>
+        </h1>
+
+        <!--
         <div style="text-align:center;">
+
           <a href="index.html">
           <img src="assets/logo.png" style="max-height:128px;" alt="Click for the Main Page">
           </a>
         </div>
+        -->
         <h2 style='text-align:center;font-family:Playwrite US Trad;'>"<span id='quote'>Why are you reading this?</span>"</h2>
         <script>
         document.getElementById("quote").textContent = qotd;
         </script>
       </div>
     </div>
-      <!--end of heading-->
+  <!--end of heading-->
     <div class='big, content' id='big2' style='height: 30%'>
       <h1 style='text-align:center'>The Robot Log</h1>
       <p style='text-align:center'>WORK IN PROGRESS</p>

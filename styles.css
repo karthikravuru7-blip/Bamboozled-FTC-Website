@@ -2,8 +2,9 @@ body {
     background-color: #578a21;
     text-align: center;
     justify-content: center;
+    position: relative;
+    padding:0
 }
-
 h1 {
     font-family: Poppins;
     color: #ffffff;
@@ -62,12 +63,24 @@ h3{
     display:flex;
     justify-content: space-between;
     text-align:center;
+    color:white;
 
 }
 #middlespace{
     width: 70%;
 }
 
+#topbar2{
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    margin:0.1%;
+    padding:0.1%;
+    color:white;
+    position:sticky;
+    top:0;
+    z-index:999;
+}
 .num1 {
     display: flex;
     gap: 20px;
@@ -75,7 +88,7 @@ h3{
 }
 
 .content {
-    background-image: linear-gradient(to right, #7D9E4F, #7D9E4F);
+    background-color: #7D9E4F;
     border: 5px solid white
 }
 
@@ -86,13 +99,13 @@ h3{
 .big {
     background-color: #7D9E4F;
     border: 5px solid white;
-    height: 670px;
+    height: 50%;
 }
 
 .links{
     background-color: #75994e;
     padding: 10px;
-    height: 670px;
+    height: 50%;
     justify-content: center;
 }
 

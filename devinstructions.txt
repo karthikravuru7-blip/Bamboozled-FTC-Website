@@ -1,0 +1,10 @@
+BEFORE making a new page:
+
+Copy everything in index.html down to <!--end of heading-->. Paste it into the new file. This will add the top bar and the Bamboozled header.
+
+---
+Avoid modifying styles.css.
+If you need to use css, do it inside the html file(inline css). Only update styles.css if your inline css is getting too long(like maybe 10+ style elements).
+---
+
+PLEASE indent code accordingly, it makes troubleshooting so much easier.
