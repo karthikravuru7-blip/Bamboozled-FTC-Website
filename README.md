@@ -1,4 +1,5 @@
-# WEBSITE LINK(In case you didn't read the sidebar): https://bamboozled-ftc.vercel.app/
+# WEBSITE LINK(In case you didn't read the sidebar): 
+https://bamboozled-ftc.vercel.app/
 
 # ???
 Here's a really boring README because otherwise the project looks awkward on GitHub.
