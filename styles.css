@@ -91,7 +91,9 @@ h3{
 
 .content {
     background-color: #7D9E4F;
-    border: 5px solid white
+    border: 5px solid white;
+    margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .spacer128px{
